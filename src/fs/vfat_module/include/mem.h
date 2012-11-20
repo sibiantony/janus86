@@ -1,0 +1,11 @@
+#ifndef __MEM_H
+#define __MEM_H
+
+#define KERNEL_LOAD_MEM 	0x10000
+#define KERNEL_MEM_START 	0x40000
+#define KERNEL_MEM_END 		0x80000
+#define KERNEL_MEM_SIZE 	(KERNEL_MEM_END - KERNEL_MEM_START)
+
+
+#endif
+

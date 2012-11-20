@@ -1,0 +1,36 @@
+Janus86 - A Bootloader Integrated Kernel 
+----------------------------------------
+
+   Janus86 is a new genre of kernel for x86 architecture providing 
+functionalities   of a kernel under  the protected / real modes of 
+operation and can be deployed to boot a bigger kernel.
+
+Features of this tiny kernel 
+----------------------------
+1) A new generation  kernel that provides the   functionalities of 
+a 32-bit kernel and can switch between protected/real modes .
+
+2) Provides  compatibility with  x86 and  uses a  basic peripheral 
+driver set.
+
+3) A  futuristic desgin  in which a  smaller kernel loads a bigger 
+Operating system for execution.
+
+4) It provides the functionalities to load and execute x86 
+compatible binaries ; kernel images etc. Inspect memory, hardrives
+      /harddrive sectors/ filesystem for the presence of operating 
+systems  ,  load sectors  into memory ,   perform far jumps, via a
+command line interface etc.
+
+Janus86 Home Page
+-----------------
+	http://janus86.sourceforge.net
+
+Install
+-------
+	Details on compilation and running is  mentioned in INSTALL.
+
+License
+-------
+	Janus86 can be used and  distributed under  the GNU General 
+Public License. See COPYING for more information .

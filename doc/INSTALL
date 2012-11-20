@@ -1,0 +1,19 @@
+Download the janus86  source tarball.  Uncompress the  tarfile
+and do 'make' to compile.
+
+Requirements:
+	Gcc
+	Gnu AS Assembler
+	
+To install janus86 , insert a blank floppy in the floppy drive
+and do a 'make install'.Now the janus86 bootable image will be 
+copied to the floppy.
+
+Testing
+-------
+	The  bootable image can be tested  using a PC emulator 
+like QEMU : http://fabrice.bellard.free.fr/qemu/
+
+	To  test  run  the  kernel image  using QEMU issue the 
+following command from a shell :
+	qemu -fda janus86.img -hda /dev/hda -boot a
